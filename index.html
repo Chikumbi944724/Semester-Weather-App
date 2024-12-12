@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="img/rain.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="search..." class="searchInput">
+            <button><img src="img/search.png" alt="" class="searchBtn"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="container">
+            <div class="weather">
+                <img src="img/clouds.png" alt="" class="weather-icon">
+            </div>
+            <div>
+                <h1 class="temp">23°C</h1>
+            </div>
+            <div>
+                <h1 class="cityName">Chennai</h1>
+            </div>
+            <div class="details">
+                <div class="hum">
+                    <h2 class="humidity">64%</h2>
+                    <img src="img/humidity.png" alt="">
+                </div>
+                <div class="wind">
+                    <h2 class="windy">6 km/h</h2>
+                    <img src="img/wind.png" alt="">
+                </div>
+            </div>
+            <div class="abb">
+                <h2>Humidity</h2>
+                <h2>Wind</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5-Day Forecast Section -->
+    <div class="forecast">
+        <h2>5-Day Forecast</h2>
+        <div class="forecast-container">
+            <!-- Forecast days will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="quick-links">
+        <h3>Quick Links</h3>
+        <div class="quick-links-grid">
+            <a href="http://www.icuzambia.net/" class="quick-link">icuzambia</a>
+            <a href="https://www.zrdc.org/index.php" class="quick-link">ZRDC</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Your trusted weather information source</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: chikumbieddie5@gmail.com</p>
+                <p>Phone:+260973944724</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="https://web.facebook.com/icuzam">ICU Zambia Facebook</a><br>
+                <a href="https://web.facebook.com/zambiaresearch/?_rdc=1&_rdr">ZRDC Facebook</a><br>
+                <a href="https://www.linkedin.com/school/icuzambia/">ICU Zambia LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Designed and Maintained By: Eddiffy Chikumbi, SIN:2306384954.2024 Weather App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
